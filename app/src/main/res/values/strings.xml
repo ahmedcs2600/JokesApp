@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">JokesApp</string>
+    <string name="laughing_image">Laughing Image</string>
+    <string name="wink_image">Wink Image</string>
+    <string name="joke_id_text">ID %1$s</string>
+    <string name="app_visit_count">You have seen jokes %1$s times</string>
+</resources>

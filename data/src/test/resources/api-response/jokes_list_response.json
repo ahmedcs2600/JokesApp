@@ -1,0 +1,176 @@
+{
+  "error": false,
+  "amount": 10,
+  "jokes": [
+    {
+      "category": "Pun",
+      "type": "twopart",
+      "setup": "The past, the present and the future walk into a bar.",
+      "delivery": "It was tense.",
+      "flags": {
+        "nsfw": false,
+        "religious": false,
+        "political": false,
+        "racist": false,
+        "sexist": false,
+        "explicit": false
+      },
+      "id": 198,
+      "safe": true,
+      "lang": "en"
+    },
+    {
+      "category": "Dark",
+      "type": "twopart",
+      "setup": "What is the difference between a pizza and a black man?",
+      "delivery": "A pizza can feed a family of five.",
+      "flags": {
+        "nsfw": false,
+        "religious": false,
+        "political": false,
+        "racist": true,
+        "sexist": false,
+        "explicit": false
+      },
+      "id": 174,
+      "safe": false,
+      "lang": "en"
+    },
+    {
+      "category": "Pun",
+      "type": "twopart",
+      "setup": "What did the customer say to the waiter?",
+      "delivery": "I'm all fed up with your service.",
+      "flags": {
+        "nsfw": false,
+        "religious": false,
+        "political": false,
+        "racist": false,
+        "sexist": false,
+        "explicit": false
+      },
+      "id": 190,
+      "safe": true,
+      "lang": "en"
+    },
+    {
+      "category": "Pun",
+      "type": "twopart",
+      "setup": "What's grey and comes in pints?",
+      "delivery": "An elephant.",
+      "flags": {
+        "nsfw": true,
+        "religious": false,
+        "political": false,
+        "racist": false,
+        "sexist": false,
+        "explicit": true
+      },
+      "id": 216,
+      "safe": false,
+      "lang": "en"
+    },
+    {
+      "category": "Dark",
+      "type": "twopart",
+      "setup": "What's the difference between a little girl and a fridge?",
+      "delivery": "Fridges don't scream when you put your meat in them.",
+      "flags": {
+        "nsfw": true,
+        "religious": false,
+        "political": false,
+        "racist": false,
+        "sexist": false,
+        "explicit": true
+      },
+      "id": 122,
+      "safe": false,
+      "lang": "en"
+    },
+    {
+      "category": "Misc",
+      "type": "twopart",
+      "setup": "Went to the doctors for a prostate exam.\nDuring the exam he said it's not unusual to become aroused or even ejaculate.",
+      "delivery": "But still, I wish he hadn't.",
+      "flags": {
+        "nsfw": true,
+        "religious": false,
+        "political": false,
+        "racist": false,
+        "sexist": false,
+        "explicit": true
+      },
+      "id": 83,
+      "safe": false,
+      "lang": "en"
+    },
+    {
+      "category": "Pun",
+      "type": "twopart",
+      "setup": "I stayed up all night wondering where the sun went.",
+      "delivery": "Then it dawned on me.",
+      "flags": {
+        "nsfw": false,
+        "religious": false,
+        "political": false,
+        "racist": false,
+        "sexist": false,
+        "explicit": false
+      },
+      "safe": true,
+      "id": 287,
+      "lang": "en"
+    },
+    {
+      "category": "Dark",
+      "type": "twopart",
+      "setup": "How do you keep black people out of your back yard?",
+      "delivery": "Hang one in the front!",
+      "flags": {
+        "nsfw": false,
+        "religious": false,
+        "political": false,
+        "racist": true,
+        "sexist": false,
+        "explicit": true
+      },
+      "id": 239,
+      "safe": false,
+      "lang": "en"
+    },
+    {
+      "category": "Dark",
+      "type": "twopart",
+      "setup": "What's the difference between an apple and a black guy?",
+      "delivery": "The apple will eventually fall from the tree that it's hanging from!",
+      "flags": {
+        "nsfw": false,
+        "religious": false,
+        "political": false,
+        "racist": true,
+        "sexist": false,
+        "explicit": true
+      },
+      "id": 102,
+      "safe": false,
+      "lang": "en"
+    },
+    {
+      "category": "Christmas",
+      "type": "twopart",
+      "setup": "What says Oh Oh Oh?",
+      "delivery": "Santa walking backwards!",
+      "flags": {
+        "nsfw": false,
+        "religious": false,
+        "political": false,
+        "racist": false,
+        "sexist": false,
+        "explicit": false
+      },
+      "id": 245,
+      "safe": true,
+      "lang": "en"
+    }
+  ]
+}

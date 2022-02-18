@@ -1,0 +1,78 @@
+plugins {
+    id 'com.android.application'
+    id 'org.jetbrains.kotlin.android'
+    id 'kotlin-kapt'
+    id 'dagger.hilt.android.plugin'
+    id 'androidx.navigation.safeargs.kotlin'
+}
+
+android {
+    compileSdk ConfigData.compileSdkVersion
+
+    defaultConfig {
+        applicationId ConfigData.applicationId
+        minSdk ConfigData.minSdkVersion
+        targetSdk ConfigData.targetSdkVersion
+        versionCode ConfigData.versionCode
+        versionName ConfigData.versionName
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildFeatures {
+        viewBinding true
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    kotlinOptions {
+        jvmTarget = ConfigData.jvmTarget
+    }
+
+}
+
+dependencies {
+
+    implementation project(':data')
+    implementation project(':domain')
+    implementation project(':cache')
+
+    implementation(Dependencies.legacySupport)
+
+    //core libraries
+    implementation(Dependencies.coreKtx)
+    implementation(Dependencies.appCompat)
+    implementation(Dependencies.material)
+    implementation(Dependencies.constraintLayout)
+
+    // Navigation Component
+    implementation(Dependencies.fragmentKtx)
+    implementation(Dependencies.fragmentUiKtx)
+
+    //Dependency Injection
+    implementation(Dependencies.hiltAndroid)
+    kapt(Dependencies.hiltCompiler)
+
+    //Networking
+    implementation(Dependencies.gson)
+    implementation(Dependencies.retrofit)
+    implementation(Dependencies.retrofitConverterGson)
+    implementation(Dependencies.loggingInterceptor)
+
+    //testing
+    testImplementation(Testing.junit)
+    androidTestImplementation(Testing.androidxJUnit)
+    androidTestImplementation(Testing.espressoCore)
+    testImplementation(Testing.androidxJUnit)
+    testImplementation(Testing.androidxCoreTesting)
+    testImplementation(Testing.mockK)
+    testImplementation(Testing.coroutineTest)
+}
