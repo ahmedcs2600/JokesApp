@@ -1,7 +1,6 @@
-package com.example.cache.manager
+package com.example.domain.repository
 
-interface DataStoreManager {
-
+interface VisitInfoRepository {
     suspend fun increaseVisitCount()
 
     suspend fun retrieveVisitCount(): Int

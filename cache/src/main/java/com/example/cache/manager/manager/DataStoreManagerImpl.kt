@@ -1,4 +1,4 @@
-package com.example.cache.manager
+package com.example.cache.manager.manager
 
 import android.content.Context
 import androidx.datastore.core.DataStore

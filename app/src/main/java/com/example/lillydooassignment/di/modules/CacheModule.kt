@@ -1,8 +1,8 @@
 package com.example.lillydooassignment.di.modules
 
 import android.content.Context
-import com.example.cache.manager.DataStoreManager
-import com.example.cache.manager.DataStoreManagerImpl
+import com.example.cache.manager.manager.DataStoreManager
+import com.example.cache.manager.manager.DataStoreManagerImpl
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
